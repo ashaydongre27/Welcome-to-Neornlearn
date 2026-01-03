@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Login - LearnSphere</title>
+        <link rel="stylesheet" href="common.css" />
+        <link rel="stylesheet" href="exceptional.css" />
+        <link rel="stylesheet" href="login.css" />
+        <link rel="stylesheet" href="footer.css" />
+        <link rel="stylesheet" href="nav.css" />
+    </head>
+
+    <body>
+        <script src="connector.py"></script>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="index.html" class="logo">NeonLearn</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html" class="btn btn-glow">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="mainLogIn">
+            <div>
+                <div id="particles-js"></div>
+                
+                <div class="credentials"> 
+                    <h1>Register</h1>
+                    <form id="regForm" action="register_handler.php" method="post">
+                        <div class="Inputs">
+                            <p>First name</p><input type="text" name ="first_name"><br> <!--------first name------------>
+                            <p>Last name</p><input type="text" name ="last_name"><br>   <!--------last name------------->
+                            <p>Username</p><input type="text" name ="username"><br>     <!--------Username ------------->
+                            <p>Phone Number</p><input type="text" name ="phone"><br>    <!--------Phone Number---------->
+                            <p>Email</p><input type="text" name ="email"><br>           <!--------email----------------->
+                            <p>Password</p><input type="text" name ="password">         <!--------Password-------------->
+                        </div>
+                        <div class="buttons">
+                            <button type="submit" class="regsubbutton">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+                    <script src="particles.js"></script>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NeonLearn</h3>
+                    <a>
+                        The future of education is here. Join millions of learners transforming their careers.
+                    </a>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="courses.html">Browse Courses</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Student Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">AI & ML</a></li>
+                        <li><a href="#">Blockchain</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><a>Support: 24/7 Live Chat<a></li>
+                        <li><a>Email: hello@neonlearn.com<a></li>
+                        <li><a>Phone: +1 (555) 123-4567<a></li>
+                    </ul>
+                    <p>&copy; 2024 NeonLearn. All rights reserved. | Privacy Policy | Terms of Service</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+

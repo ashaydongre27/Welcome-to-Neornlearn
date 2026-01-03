@@ -1,0 +1,489 @@
+<DOCTYPE! html>
+
+<html>
+    <head>
+        <title>Explor More Course</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="common.css">
+        <link rel="stylesheet" href="exceptional.css">
+        <link rel="stylesheet" href="nav.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="filter.css">
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar ">
+            <div class="nav-container">
+                <a href="index.html" class="logo">NeonLearn</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="aboutUs.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html" class="btn btn-glow">Get Started</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+        
+        <!-- NEW COURSES START HERE -->
+        <div class="filter-dropdown">
+                        <p class="filter-title">Filter by Category</p>
+                        <button class="filter-btn active" data-filter="all">📚 All Courses</button>
+                        <button class="filter-btn" data-filter="fullstack">🌐 Full Stack & Web</button>
+                        <button class="filter-btn" data-filter="mobile">📱 Mobile Development</button>
+                        <button class="filter-btn" data-filter="devops">☁️ DevOps & Cloud</button>
+                        <button class="filter-btn" data-filter="ai-data">🤖 AI & Data Science</button>
+                        <button class="filter-btn" data-filter="programming">💻 Programming</button>
+                        <button class="filter-btn" data-filter="design">🎨 Design & Marketing</button>
+        </div>
+        <div class="course-grid">
+            <div class="course-card">
+                        <div class="course-header">
+                            <span class="badge">BESTSELLER</span>
+                            <h3>Full-Stack Web Development</h3>
+                        </div>
+                        <div class="course-body">
+                            <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                                Master HTML, CSS, JavaScript, React, Node.js and more
+                            </p>
+                            <div class="rating">
+                                <span>⭐⭐⭐⭐⭐</span> 4.9 (15,234 reviews)
+                            </div>
+                            <p class="price">₹4900 <span class="old-price">₹199</span></p>
+                            <a href="enroll\fsdEnroll.html" class="btn">Enroll Now</a>
+                        </div>
+                    </div>
+
+                <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">NEW</span>
+                    <h3>AI & Machine Learning</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Deep dive into AI, ML, Neural Networks with Python
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.8 (9,876 reviews)
+                    </div>
+                    <p class="price">₹6900 <span class="old-price">₹299</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">TRENDING</span>
+                    <h3>Blockchain Development</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Build DApps, Smart Contracts on Ethereum & Solana
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.7 (5,432 reviews)
+                    </div>
+                    <p class="price">₹79 <span class="old-price">₹349</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">HOT</span>
+                    <h3>DevOps & Cloud Engineering</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        AWS, Docker, Kubernetes, CI/CD, Jenkins, Terraform
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.9 (12,890 reviews)
+                    </div>
+                    <p class="price">₹8900 <span class="old-price">₹39900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">POPULAR</span>
+                    <h3>Python Programming Masterclass</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Python basics to advanced, Django, Flask, Automation
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.8 (18,543 reviews)
+                    </div>
+                    <p class="price">₹3900 <span class="old-price">₹18900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">NEW</span>
+                    <h3>Cybersecurity & Ethical Hacking</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Network Security, Penetration Testing, Kali Linux
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.7 (7,234 reviews)
+                    </div>
+                    <p class="price">₹7900 <span class="old-price">₹32900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">BESTSELLER</span>
+                    <h3>React Native Mobile Development</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Build iOS & Android apps with React Native & Expo
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.9 (14,678 reviews)
+                    </div>
+                    <p class="price">₹5900 <span class="old-price">₹24900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">TRENDING</span>
+                    <h3>Data Science & Analytics</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Python, R, SQL, Tableau, Power BI, Statistics
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.8 (11,432 reviews)
+                    </div>
+                    <p class="price">₹6900 <span class="old-price">₹29900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">HOT</span>
+                    <h3>UI/UX Design Complete Course</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Figma, Adobe XD, User Research, Prototyping
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.9 (9,876 reviews)
+                    </div>
+                    <p class="price">₹4900 <span class="old-price">₹19900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">NEW</span>
+                    <h3>Flutter App Development</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Build beautiful native apps with Dart & Flutter
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐</span> 4.6 (6,543 reviews)
+                    </div>
+                    <p class="price">₹5900 <span class="old-price">₹26900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">POPULAR</span>
+                    <h3>Java Programming Complete</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Core Java, Spring Boot, Microservices, JPA
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.7 (13,234 reviews)
+                    </div>
+                    <p class="price">₹4900 <span class="old-price">₹22900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">TRENDING</span>
+                    <h3>Next.js & TypeScript</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Modern web apps with Next.js 14, TypeScript, Tailwind
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.9 (8,765 reviews)
+                    </div>
+                    <p class="price">₹6900 <span class="old-price">₹27900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">BESTSELLER</span>
+                    <h3>Digital Marketing Masterclass</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        SEO, Google Ads, Facebook Ads, Content Marketing
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.8 (16,789 reviews)
+                    </div>
+                    <p class="price">₹3900 <span class="old-price">₹17900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">HOT</span>
+                    <h3>Game Development with Unity</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Create 2D & 3D games with Unity & C#
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.7 (10,234 reviews)
+                    </div>
+                    <p class="price">₹7900 <span class="old-price">₹34900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">NEW</span>
+                    <h3>GraphQL & Apollo</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Modern APIs with GraphQL, Apollo Server & Client
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐</span> 4.6 (4,321 reviews)
+                    </div>
+                    <p class="price">₹5900 <span class="old-price">₹23900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">POPULAR</span>
+                    <h3>Vue.js 3 Complete Guide</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Vue 3, Composition API, Vuex, Vue Router, Nuxt.js
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.8 (8,987 reviews)
+                    </div>
+                    <p class="price">₹4900 <span class="old-price">₹21900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">TRENDING</span>
+                    <h3>Rust Programming Language</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Systems programming with Rust, WebAssembly
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.7 (5,678 reviews)
+                    </div>
+                    <p class="price">₹6900 <span class="old-price">₹28900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">HOT</span>
+                    <h3>Angular Complete Course</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Angular 17, RxJS, NgRx, Angular Material
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.8 (11,234 reviews)
+                    </div>
+                    <p class="price">₹5900 <span class="old-price">₹25900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">NEW</span>
+                    <h3>Go Programming & Microservices</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Golang fundamentals, REST APIs, gRPC, Microservices
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐</span> 4.6 (6,789 reviews)
+                    </div>
+                    <p class="price">₹6900 <span class="old-price">₹29900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">BESTSELLER</span>
+                    <h3>SQL & Database Design</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        MySQL, PostgreSQL, MongoDB, Database optimization
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.9 (15,432 reviews)
+                    </div>
+                    <p class="price">₹3900 <span class="old-price">₹16900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">POPULAR</span>
+                    <h3>WordPress Development</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        WordPress themes, plugins, WooCommerce, Elementor
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐</span> 4.5 (9,876 reviews)
+                    </div>
+                    <p class="price">₹2900 <span class="old-price">₹14900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">TRENDING</span>
+                    <h3>Kubernetes & Microservices</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        K8s deployment, scaling, monitoring, service mesh
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.8 (7,654 reviews)
+                    </div>
+                    <p class="price">₹8900 <span class="old-price">₹37900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">HOT</span>
+                    <h3>Swift iOS Development</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        Build iOS apps with Swift, SwiftUI, Core Data
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐⭐</span> 4.7 (8,234 reviews)
+                    </div>
+                    <p class="price">₹7900 <span class="old-price">₹32900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+
+            <div class="course-card">
+                <div class="course-header">
+                    <span class="badge">NEW</span>
+                    <h3>Terraform & Infrastructure as Code</h3>
+                </div>
+                <div class="course-body">
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 1rem;">
+                        AWS, Azure, GCP automation with Terraform
+                    </p>
+                    <div class="rating">
+                        <span>⭐⭐⭐⭐</span> 4.6 (3,456 reviews)
+                    </div>
+                    <p class="price">₹6900 <span class="old-price">₹28900</span></p>
+                    <a href="courses.html" class="btn" style="width: 100%; text-align: center; margin-top: 1rem;">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NeonLearn</h3>
+                    <a>
+                        The future of education is here. Join millions of learners transforming their careers.
+                    </a>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="courses.html">Browse Courses</a></li>
+                        <li><a href="aboutUs.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Student Portal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">AI & ML</a></li>
+                        <li><a href="#">Blockchain</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li><a>Support: 24/7 Live Chat<a></li>
+                        <li><a>Email: hello@neonlearn.com<a></li>
+                        <li><a>Phone: +1 (555) 123-4567<a></li>
+                    </ul>
+                    <p>&copy; 2024 NeonLearn. All rights reserved. | Privacy Policy | Terms of Service</p>
+                </div>
+            </div>
+        </footer>    
+    </body>
+</html>

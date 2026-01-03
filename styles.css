@@ -1,0 +1,85 @@
+.body{
+    margin: 0;
+}
+
+.navbar {
+    background: rgba(10, 10, 10, 0.95);
+    backdrop-filter: blur(10px); 
+    
+    border-bottom: 2px solid transparent;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.95), rgba(10, 10, 10, 0.95)), 
+                      linear-gradient(90deg, #667eea, #f093fb, #fa709a, #fee140, #30cfd0);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+
+}
+
+
+
+
+/*
+.navbar {
+    background: rgba(10, 10, 10, 0.95);
+    /* backdrop-filter: blur(10px); 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem 0;
+    border-bottom: 2px solid transparent;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.95), rgba(10, 10, 10, 0.95)), 
+                      linear-gradient(90deg, #667eea, #f093fb, #fa709a, #fee140, #30cfd0);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    box-shadow: 0 0px 0px rgba(0,0,0,0.3);
+}
+ .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    font-weight: 500;
+    transition: color 0.3s;
+    padding: 0.5rem 0;
+}
+
+.nav-links a:not(.btn)::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #667eea, #f093fb);
+    transition: width 0.3s;
+}
+
+.nav-links a:not(.btn):hover::before {
+    width: 100%;
+}
+
+.nav-links a:not(.btn):hover {
+    color: #f093fb;
+}
+
+ */
